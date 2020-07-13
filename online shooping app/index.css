@@ -1,0 +1,71 @@
+#myform
+{
+
+    display: none;
+    background: yellow;
+    width: max-content;
+    padding: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+#nav-bar
+{
+ background-color: yellow;   
+}
+#search-bar
+{
+    height: 30px;
+    width: 700px;
+}
+
+.product{
+    display: inline-block;
+    margin: 10px;
+}
+
+#nav-bottom
+{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+     color: white;
+     justify-content: space-around;
+}
+
+#enter
+{
+    position: relative;
+    right: -200px;
+}
+
+
+
+.displayimage{
+    height: 250px;
+    width: 250px;
+}
+
+#cartitems{
+    display: none;
+    background-color: blueviolet;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+    border: 5px solid black;
+}
+#carttextcontent
+{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.product:hover
+{
+    transform: scale(1.2);
+    
+}
